@@ -11,5 +11,6 @@
         <h1>{{$count++}}</h1>
         <input type="checkbox" wire:model="loud">
         <h1> {{$greeting}} {{$name}} @if($loud) ! @endif</h1>
+        <button wire:click="resetName">Reset Name</button>
     </div>
 </div>

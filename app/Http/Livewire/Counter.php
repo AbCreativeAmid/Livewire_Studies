@@ -18,4 +18,8 @@ class Counter extends Component
     {
         return view('livewire.counter');
     }
+    public function resetName()
+    {
+        $this->name = "Ali";
+    }
 }
